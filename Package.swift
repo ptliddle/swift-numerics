@@ -45,7 +45,7 @@ let package = Package(
     
     .target(
       name: "RealModule",
-      dependencies: ["_NumericsShims"],
+      dependencies: ["NumericsShims"],
       exclude: excludedFilenames,
       linkerSettings: [
         .linkedLibrary("m", .when(platforms: [.linux, .android]))
@@ -54,7 +54,8 @@ let package = Package(
     
     // MARK: - Implementation details
     .target(
-      name: "_NumericsShims",
+      name: "NumericsShims",
+      path: "Sources/NumericsShims",
       exclude: excludedFilenames
     ),
     

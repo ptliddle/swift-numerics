@@ -62,7 +62,7 @@ The Swift Numerics package is source stable; version numbers follow [Semantic Ve
 The public API of the `swift-numerics` package consists of non-underscored declarations that are marked either `public` or `usableFromInline` in modules re-exported by the top-level `Numerics` module.
 Interfaces that aren't part of the public API may continue to change in any release, including patch releases. 
 
-Note that contents of the `_NumericsShims` and `_TestSupport` modules, as well as contents of the `Tests` directory, explicitly are not public API.
+Note that contents of the `NumericsShims` and `_TestSupport` modules, as well as contents of the `Tests` directory, explicitly are not public API.
 The definitions therein may therefore change at whim, and the entire module may be removed in any new release.
 If you have a use case that requires underscored operations, please raise an issue to request that they be made public API.
 

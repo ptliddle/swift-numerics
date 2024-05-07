@@ -22,7 +22,7 @@ add_library(RealModule
 set_target_properties(RealModule PROPERTIES
   INTERFACE_INCLUDE_DIRECTORIES ${CMAKE_Swift_MODULE_DIRECTORY})
 target_link_libraries(RealModule PUBLIC
-  _NumericsShims)
+  NumericsShims)
 
 
 _install_target(RealModule)
