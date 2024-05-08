@@ -9,7 +9,7 @@
 //
 //===----------------------------------------------------------------------===//
 
-import _NumericsShims
+import NumericsShims
 
 @_transparent
 public func blackHole<T>(_ thing: T) {

@@ -9,7 +9,7 @@
 //
 //===----------------------------------------------------------------------===//
 
-import _NumericsShims
+import NumericsShims
 
 /// A namespace for "relaxed arithmetic" operations for types conforming to
 /// `AlgebraicField`.

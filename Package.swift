@@ -55,7 +55,7 @@ let package = Package(
     // MARK: - Implementation details
     .target(
       name: "NumericsShims",
-      path: "Sources/_NumericsShims",
+      path: "Sources/NumericsShims",
       exclude: excludedFilenames
     ),
     
